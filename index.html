@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Java script</title>
+    
+<!-- css links --> 
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+
+</head> 
+<body>
+<h1 class="head">My Home Work.</h1>
+
+
+  <!-- text change -->  
+<div class="container">
+  
+    <h1 class="text-denger">click thr button to change the text<h1>
+    <button type="button" class="btn btn-dark my-2" onclick="textchange()">text change</button>   
+    <h2 id="h2">Hellow World!</h2> 
+</div>
+<!-- show date -->
+<div class="container">
+    <h1>click the button to show the date.</h1>
+
+    <button type="button" class="btn btn-dark" onclick="showDate()">show date.</button>
+    <h2 id="th2">Date</h2>
+
+</div>
+<!-- light -->
+<div class="container">
+    <button class="btn btn-dark" onclick="lighton()">Turn on the light</button>
+
+    <img id="myImage" src="images/lightoff.gif" style="width:100px">
+
+    <button class="btn btn-dark" onclick="lightoff()">Turn off the light</button>
+</div>
+<!-- font big -->
+<div class="container">
+    <p id="demo">I'm Iftiar Meheraj.And you</p>
+
+    <button class="btn btn-dark" type="button" onclick="f_big()">Click Me!</button>
+</div>
+<!-- font small -->
+<div class="container">
+    <h2 id="f-sm">I'm Iftiar Meheraj.And you</h2>
+
+    <button class="btn btn-dark" type="button" onclick="f_sm()">Click Me!</button>
+</div>
+<!-- D_none -->
+<div class="container">
+    <h2 id="demo1">JavaScript can hide HTML elements.</h2>
+
+    <button class="btn btn-dark" type="button" onclick="d_none()">Click Me!</button>
+</div>
+<!-- jog kora -->
+<div class="container">
+    <p>My First Paragraph.</p>
+
+    <p id="demo2"></p>
+
+    <script>
+    document.getElementById("demo2").innerHTML = 5 + 6;
+    </script>
+</div>
+<!-- jpg button -->
+<div class="container">
+<p>My first paragraph.</p>
+
+<button class="btn btn-dark" type="button" onclick="jpg()">Try it</button>
+</div>
+<!-- prent -->
+<div class="container">
+    <p>Click the button to print the current page.</p>
+
+    <button class="btn btn-dark" onclick="window.print()">Print this page</button>
+</div>
+<!-- opparator -->
+<div class="container">
+    <h2>JavaScript Operators</h2>
+<p id="demo3"></p>
+
+<script>
+document.getElementById("demo3").innerHTML = (5 + 6) * 10;
+</script>
+</div>
+<!-- values -->
+<div class="container">
+    <h2>Assigning JavaScript Values</h2>
+    <p id="demo4"></p>
+
+    <script>
+    let x, y;
+    x = 11;
+    y = 6;
+    document.getElementById("demo4").innerHTML = x + y;
+    </script>
+</div>
+<!-- expression -->
+<div class="container">
+    <h2>JavaScript Expressions</h2>
+<p id="demo5"></p>
+
+<script>
+document.getElementById("demo5").innerHTML = 5 * 10;
+</script>
+</div>
+<!-- johon -->
+<div class="container">
+    <h2>JavaScript Expressions</h2>
+<p id="demo6"></p>
+
+<script>
+document.getElementById("demo6").innerHTML = "John" + " "  + "Doe";
+</script>
+</div>
+<!-- name -->
+<div class="container">
+    <p>Try to change lastName to lastname.</p>
+
+<p id="demo7"></p>
+
+<script>
+let lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
+document.getElementById("demo7").innerHTML = lastName;
+</script>
+</div>
+<!-- ----- -->
+<div class="container">
+    <p id="dem7"></p>
+
+<script>
+let a, b, c;
+a = 5; b = 6; c = a + b;
+document.getElementById("dem7").innerHTML = c;
+</script>
+</div>
+<!-- -=-=- -->
+<div class="container">
+    <button class="btn btn-dark" type="button" onclick="d8()">click me!</button>
+    <p id="demo8"></p>
+
+</div>
+<!-- cmt -->
+<div class="container">
+    
+    <button type="button" class="btn btn-dark" onclick="cmt()">Hit me!</button>
+
+    <p id="dam"></p>
+</div>
+<!-- d_9 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d9()">Click Me!</button>
+    <p id="demo9"></p>
+
+</div>
+<!-- d_10 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d10()">Hit Me!</button>
+    <p id="demo10"></p>
+</div>
+<!-- d_11 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d11()">Click Me!</button>
+    <p id="demo11"></p>
+</div>
+<!-- d_12 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d12()">Hit Me!</button>
+    <p id="demo12"></p>
+
+</div>
+<!-- d_13 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d13()">Click Me!</button>
+    <p id="demo13"></p>
+
+</div>
+<!-- d_14 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d14()">Hit Me!</button>
+    <p id="demo14"></p>
+
+</div>
+<!-- d_15 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d15()">Click Me!</button>
+    <p id="demo15"></p>
+
+</div>
+<!-- price -->
+<div class="container">
+    
+    <p>In this example, price1, price2, and total are variables.</p>
+    <button type="button" class="btn btn-dark" onclick="d16()">Hit Me!</button>
+    <p id="demo16"></p>
+
+</div>
+<!-- var -->
+<div class="container">
+    <p>Redeclaring a JavaScript variable with <b>var</b> is allowed anywhere in a program:</p>
+    <button type="button" class="btn btn-dark" onclick="d17()">Click 
+    Me!</button>
+    <p id="demo17"></p>
+
+
+</div>
+<!-- carrname -->
+<div class="container">
+    <p>With <b>var</b>, you can use a variable before it is declared:</p>
+    <button type="button" class="btn btn-dark" onclick="d18()">Click Me!</button>
+
+    <p id="demo18"></p>
+
+</div>
+<!-- saab -->
+<div class="container">
+    <p>With <b>let</b>, you cannot use a variable before it is declared.</p>
+    <button type="button" class="btn btn-dark" onclick="d19()">Hit Me!</button>
+    <p id="demo19"></p>
+
+</div>
+<!-- err -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d20()">Hit Me!</button>
+    <p id="demo20"></p>
+
+</div>
+<!-- d_21 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d21()">Click Me!</button>
+    <p id="demo21"></p>
+
+</div>
+<!-- d_22 -->
+<div class="container">
+    <button type="button" class="btn btn-dark" onclick="d22()">Click Me!</button>
+    <p id="demo22"></p>
+</div>
+
+
+
+ 
+
+<!-- js links -->
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
